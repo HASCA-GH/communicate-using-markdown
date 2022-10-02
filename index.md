@@ -24,3 +24,10 @@ app.get('/api', (req, res) => {
   myobj['utc']  = new Date().toUTCString();
   res.json(myobj);
 ```
+### Adding Checkboxes:
+- [x] List syntax is required
+- [x] This item is complete
+- [ ] This item is not complete
+- [ ] Turn on GitHub Pages
+- [ ] Outline my portfolio
+- [ ] Introduce myself to the world
